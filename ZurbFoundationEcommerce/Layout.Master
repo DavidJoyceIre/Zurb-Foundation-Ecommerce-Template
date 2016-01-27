@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Layout.master.cs" Inherits="ZurbFoundationEcommerce.Layout" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta content="IE=11.0000" http-equiv="X-UA-Compatible" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome</title>
+
+    <link href="css/foundation.min.css" rel="stylesheet" />
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="top-bar">
+            <div class="top-bar-left">
+                <ul class="menu">
+                    <li class="menu-text">Marketing Site</li>
+                    <li><a href="http://foundation.zurb.com/downloads/templates-sites/ecommerce.html#">One</a></li>
+                    <li><a href="http://foundation.zurb.com/downloads/templates-sites/ecommerce.html#">Two</a></li>
+                </ul>
+            </div>
+            <div class="top-bar-right">
+                <ul class="menu">
+                    <li><a href="http://foundation.zurb.com/downloads/templates-sites/ecommerce.html#">Three</a></li>
+                    <li><a href="http://foundation.zurb.com/downloads/templates-sites/ecommerce.html#">Four</a></li>
+                    <li><a href="http://foundation.zurb.com/downloads/templates-sites/ecommerce.html#">Five</a></li>
+                    <li><a href="http://foundation.zurb.com/downloads/templates-sites/ecommerce.html#">Six</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+
+    </form>
+
+    <script src="javascript/jquery-2.1.4.min.js"></script>
+    <script src="javascript/foundation.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+</body>
+</html>
