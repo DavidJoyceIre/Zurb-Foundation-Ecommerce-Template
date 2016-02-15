@@ -4,3 +4,9 @@ C:\Software Development\Templates\ZurbFoundationEcommerce\ZurbFoundationEcommerc
 C:\Software Development\Templates\ZurbFoundationEcommerce\ZurbFoundationEcommerce\obj\Debug\ZurbFoundationEcommerce.csprojResolveAssemblyReference.cache
 C:\Software Development\Templates\ZurbFoundationEcommerce\ZurbFoundationEcommerce\obj\Debug\ZurbFoundationEcommerce.dll
 C:\Software Development\Templates\ZurbFoundationEcommerce\ZurbFoundationEcommerce\obj\Debug\ZurbFoundationEcommerce.pdb
+C:\Software Development\My Projects\Zurb Foundation\Template Code\ZurbFoundationEcommerce\ZurbFoundationEcommerce\bin\ZurbFoundationEcommerce.dll.config
+C:\Software Development\My Projects\Zurb Foundation\Template Code\ZurbFoundationEcommerce\ZurbFoundationEcommerce\bin\ZurbFoundationEcommerce.dll
+C:\Software Development\My Projects\Zurb Foundation\Template Code\ZurbFoundationEcommerce\ZurbFoundationEcommerce\bin\ZurbFoundationEcommerce.pdb
+C:\Software Development\My Projects\Zurb Foundation\Template Code\ZurbFoundationEcommerce\ZurbFoundationEcommerce\obj\Debug\ZurbFoundationEcommerce.csprojResolveAssemblyReference.cache
+C:\Software Development\My Projects\Zurb Foundation\Template Code\ZurbFoundationEcommerce\ZurbFoundationEcommerce\obj\Debug\ZurbFoundationEcommerce.dll
+C:\Software Development\My Projects\Zurb Foundation\Template Code\ZurbFoundationEcommerce\ZurbFoundationEcommerce\obj\Debug\ZurbFoundationEcommerce.pdb
