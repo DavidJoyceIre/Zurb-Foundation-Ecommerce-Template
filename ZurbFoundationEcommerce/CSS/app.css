@@ -1,0 +1,152 @@
+﻿.top-bar {
+    box-shadow: 0 1px 6px rgba(34, 25, 25, 0.6);
+    z-index: 999;
+    background-color: #292c2f;
+}
+
+    .top-bar a {
+        color: #fff;
+    }
+
+    .top-bar .menu {
+        background-color: #292c2f;
+    }
+
+.footer.row {
+    max-width: 1200px;
+}
+
+.footer {
+    background-color: #292c2f;
+    font-size: 1.2rem;
+    padding: 4rem;
+}
+
+    .footer a {
+        color: #fff;
+    }
+
+    .footer .inline-list a {
+        display: inline-block;
+        width: 2rem;
+        height: 2rem;
+        background-color: #33383b;
+        border-radius: 2px;
+        font-size: 1.5rem;
+        color: #fff;
+        text-align: center;
+        line-height: 35px;
+        margin: 0 3px 0 0;
+    }
+
+    .footer .contact {
+        list-style-type: none;
+        margin: 0;
+        text-align: left;
+        color: #fff;
+    }
+
+        .footer .contact li {
+            margin-bottom: 2rem;
+        }
+
+            .footer .contact li p {
+                padding-left: 5rem;
+            }
+
+        .footer .contact i {
+            position: absolute;
+            background-color: #33383b;
+            color: #fff;
+            font-size: 2rem;
+            border-radius: 50%;
+            line-height: 1;
+            margin: 0 0 0 -4rem;
+            vertical-align: middle;
+            padding: .25em .45em;
+        }
+
+    .footer .copywrite {
+        color: #8f9296;
+        font-size: 0.875rem;
+        margin: 0 0 1rem 0;
+    }
+
+    .footer .about {
+        color: #92999f;
+        font-size: 0.875rem;
+        margin: 0 0 1rem 0;
+    }
+
+    .footer .footer-links a {
+        list-style: none;
+        font-weight: normal;
+        color: #fff;
+        padding: 3rem 0 2rem;
+        margin: 0;
+        font-size: 0.875rem;
+    }
+
+        .footer .footer-links a::after {
+            content: "|";
+            padding: 0 0.2rem 0 0.4rem;
+        }
+
+        .footer .footer-links a:last-child::after {
+            content: "";
+            padding: 0 0.4rem 0 0.8rem;
+        }
+
+.logo {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+    .logo i {
+        margin-right: 0.5rem;
+    }
+
+.connect a {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    margin: 0 3px 0 0;
+}
+
+.otherways {
+    list-style-type: none;
+    margin-right: 0rem;
+    text-align: left;
+    color: #000;
+}
+
+    .otherways li {
+        margin-bottom: 2rem;
+    }
+
+        .otherways li p {
+            padding-left: 3rem;
+            width: 100%;
+        }
+
+    .otherways a {
+        color: #000;
+    }
+
+    .otherways i {
+        position: absolute;
+        background-color: #33383b;
+        color: #fff;
+        font-size: 1.5rem;
+        border-radius: 50%;
+        line-height: 1;
+        margin: 0 0 0 -3rem;
+        vertical-align: middle;
+        padding: .25em .45em;
+    }

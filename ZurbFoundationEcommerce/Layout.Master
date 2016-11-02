@@ -7,9 +7,11 @@
     <meta content="IE=11.0000" http-equiv="X-UA-Compatible" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation | Welcome</title>
+    <title>YourStore</title>
 
     <link href="css/foundation.min.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css">
     <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
 
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -20,17 +22,17 @@
         <div class="top-bar">
             <div class="top-bar-left">
                 <ul class="menu">
-                    <li class="menu-text">Marketing Site</li>
-                    <li><a href="http://foundation.zurb.com/downloads/templates-sites/ecommerce.html#">One</a></li>
-                    <li><a href="http://foundation.zurb.com/downloads/templates-sites/ecommerce.html#">Two</a></li>
+                    <li><a href="default.aspx">Home Page</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Manufacturers</a></li>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="contactus.aspx">Contact Us</a></li>
                 </ul>
             </div>
             <div class="top-bar-right">
                 <ul class="menu">
-                    <li><a href="http://foundation.zurb.com/downloads/templates-sites/ecommerce.html#">Three</a></li>
-                    <li><a href="http://foundation.zurb.com/downloads/templates-sites/ecommerce.html#">Four</a></li>
-                    <li><a href="http://foundation.zurb.com/downloads/templates-sites/ecommerce.html#">Five</a></li>
-                    <li><a href="http://foundation.zurb.com/downloads/templates-sites/ecommerce.html#">Six</a></li>
+                    <li><a href="#"><i class="fi-lock"></i>Login</a></li>
+                    <li><a href="#"><i class="fi-torso"></i>Register</a></li>
                 </ul>
             </div>
         </div>
@@ -39,36 +41,47 @@
             </asp:ContentPlaceHolder>
         </div>
 
-            <div class="callout large secondary">
-        <div class="row">
-            <div class="large-4 columns">
-                <h5>Vivamus Hendrerit Arcu Sed Erat Molestie</h5>
-                <p>
-                    Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare 
-                    ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu ad litora 
-                    torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue 
-                    sit.
-                </p>
-            </div>
-            <div class="large-3 large-offset-2 columns">
-                <ul class="menu vertical">
-                    <li><a href="#">One</a></li>
-                    <li><a href="#">Two</a></li>
-                    <li><a href="#">Three</a></li>
-                    <li><a href="#">Four</a></li>
-                </ul>
-            </div>
-            <div class="large-3 columns">
-                <ul class="menu vertical">
-                    <li><a href="#">One</a></li>
-                    <li><a href="#">Two</a></li>
-                    <li><a href="#">Three</a></li>
-                    <li><a href="#">Four</a></li>
-                </ul>
-            </div>
+        <footer class="footer">
+            <div class="row">
+                <div class="small-12 medium-6 large-5 columns">
+                    <p class="logo">YourStore</p>
+                    <p class="footer-links">
+                        <a href="#">Home Page   </a>
+                        <a href="#">Products</a>
+                        <a href="#">Manufactures</a>
+                        <a href="#">My Account</a>
+                        <a href="#">Contact Us</a>
+                    </p>
+                    <p class="copywrite">Copywrite © 2016</p>
+                </div>
+                <div class="small-12 medium-6 large-4 columns">
+                    <ul class="contact">
+                        <li>
+                            <p><i class="fi-marker"></i>Galway, Ireland, Europe, World</p>
+                        </li>
+                        <li>
+                            <p><i class="fi-telephone"></i><a href="tel:00442221111111">+222 111 1111</a></p>
+                        </li>
+                        <li>
+                            <p><i class="fi-mail"></i><a href="mailto:sales@yourstore.com">sales@yourstore.com</a></p>
+                        </li>
+                    </ul>
+                </div>
 
-        </div>
-    </div>
+                <div class="small-12 medium-12 large-3 columns">
+                    <p class="about">About Lorem ipsum</p>
+                    <p class="about subheader">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dictum porttitor lacus.</p>
+                    <ul class="inline-list social">
+                        <a href="#"><i class="fi-social-facebook"></i></a>
+                        <a href="#"><i class="fi-social-twitter"></i></a>
+                        <a href="#"><i class="fi-social-linkedin"></i></a>
+                        <a href="#"><i class="fi-social-github"></i></a>
+                        <a href="#"><i class="fi-social-google-plus"></i></a>
+                        <a href="#"><i class="fi-social-instagram"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </footer>
     </form>
 
     <script src="javascript/jquery-2.1.4.min.js"></script>
