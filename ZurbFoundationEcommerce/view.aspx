@@ -1,5 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Layout.Master" AutoEventWireup="true" CodeBehind="view.aspx.cs" Inherits="ZurbFoundationEcommerce.view" %>
 
+<%@ Register Src="~/Modules/ProductReview.ascx" TagPrefix="js" TagName="ProductReview" %>
+
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -71,34 +74,9 @@
         </ul>
         <div class="tabs-content" data-tabs-content="example-tabs">
             <div class="tabs-panel is-active" id="panel1">
-                <h4>Reviews</h4>
-                <div class="media-object stack-for-small">
-                    <div class="media-object-section">
-                        <img class="thumbnail" src="http://placehold.it/200x200" />
-                    </div>
-                    <div class="media-object-section">
-                        <h5>Mike Stevenson</h5>
-                        <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you.</p>
-                    </div>
-                </div>
-                <div class="media-object stack-for-small">
-                    <div class="media-object-section">
-                        <img class="thumbnail" src="http://placehold.it/200x200" />
-                    </div>
-                    <div class="media-object-section">
-                        <h5>Mike Stevenson</h5>
-                        <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you</p>
-                    </div>
-                </div>
-                <div class="media-object stack-for-small">
-                    <div class="media-object-section">
-                        <img class="thumbnail" src="http://placehold.it/200x200" />
-                    </div>
-                    <div class="media-object-section">
-                        <h5>Mike Stevenson</h5>
-                        <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you</p>
-                    </div>
-                </div>
+                <js:ProductReview runat="server" id="ProductReview" />
+                <js:ProductReview runat="server" id="ProductReview1" />
+                <js:ProductReview runat="server" id="ProductReview2" />
                 <label>
                     My Review
                     <textarea placeholder="None"></textarea>

@@ -1,5 +1,12 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Layout.master.cs" Inherits="ZurbFoundationEcommerce.Layout" %>
 
+<%@ Register Src="~/Modules/Footer.ascx" TagPrefix="js" TagName="Footer" %>
+<%@ Register Src="~/Modules/TopMenu.ascx" TagPrefix="js" TagName="TopMenu" %>
+<%@ Register Src="~/Modules/Header.ascx" TagPrefix="js" TagName="Header" %>
+
+
+
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -11,7 +18,7 @@
 
     <link href="css/foundation.min.css" rel="stylesheet" />
     <link href="css/app.css" rel="stylesheet" />
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
     <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
 
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -19,69 +26,15 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div class="top-bar">
-            <div class="top-bar-left">
-                <ul class="menu">
-                    <li><a href="default.aspx">Home Page</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Manufacturers</a></li>
-                    <li><a href="#">My Account</a></li>
-                    <li><a href="contactus.aspx">Contact Us</a></li>
-                </ul>
-            </div>
-            <div class="top-bar-right">
-                <ul class="menu">
-                    <li><a href="#"><i class="fi-lock"></i>Login</a></li>
-                    <li><a href="#"><i class="fi-torso"></i>Register</a></li>
-                </ul>
-            </div>
-        </div>
+        <js:TopMenu runat="server" id="TopMenu" />
+        <js:Header runat="server" ID="Header" />
+
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
 
-        <footer class="footer">
-            <div class="row">
-                <div class="small-12 medium-6 large-5 columns">
-                    <p class="logo">YourStore</p>
-                    <p class="footer-links">
-                        <a href="#">Home Page   </a>
-                        <a href="#">Products</a>
-                        <a href="#">Manufactures</a>
-                        <a href="#">My Account</a>
-                        <a href="#">Contact Us</a>
-                    </p>
-                    <p class="copywrite">Copywrite © 2016</p>
-                </div>
-                <div class="small-12 medium-6 large-4 columns">
-                    <ul class="contact">
-                        <li>
-                            <p><i class="fi-marker"></i>Galway, Ireland, Europe, World</p>
-                        </li>
-                        <li>
-                            <p><i class="fi-telephone"></i><a href="tel:00442221111111">+222 111 1111</a></p>
-                        </li>
-                        <li>
-                            <p><i class="fi-mail"></i><a href="mailto:sales@yourstore.com">sales@yourstore.com</a></p>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="small-12 medium-12 large-3 columns">
-                    <p class="about">About Lorem ipsum</p>
-                    <p class="about subheader">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dictum porttitor lacus.</p>
-                    <ul class="inline-list social">
-                        <a href="#"><i class="fi-social-facebook"></i></a>
-                        <a href="#"><i class="fi-social-twitter"></i></a>
-                        <a href="#"><i class="fi-social-linkedin"></i></a>
-                        <a href="#"><i class="fi-social-github"></i></a>
-                        <a href="#"><i class="fi-social-google-plus"></i></a>
-                        <a href="#"><i class="fi-social-instagram"></i></a>
-                    </ul>
-                </div>
-            </div>
-        </footer>
+        <js:Footer runat="server" id="Footer" />
     </form>
 
     <script src="javascript/jquery-2.1.4.min.js"></script>

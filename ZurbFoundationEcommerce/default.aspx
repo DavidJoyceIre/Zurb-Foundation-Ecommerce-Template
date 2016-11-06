@@ -1,58 +1,37 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Layout.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="ZurbFoundationEcommerce._default" %>
 
+<%@ Register Src="~/Modules/BannerTop.ascx" TagPrefix="js" TagName="BannerTop" %>
+<%@ Register Src="~/Modules/NewProducts.ascx" TagPrefix="js" TagName="NewProducts" %>
+
+
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit="" data-use-m-u-i="false">
-        <ul class="orbit-container">
-            <button class="orbit-previous" aria-label="previous" onclick="return false;"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
-            <button class="orbit-next" aria-label="next" onclick="return false;"><span class="show-for-sr">Next Slide</span>&#9654;</button>
-            <li class="orbit-slide is-active">
-                <img src="http://placehold.it/2000x750&text=1st" />
-            </li>
-            <li class="orbit-slide">
-                <img src="http://placehold.it/2000x750&text=2nd" />
-            </li>
-            <li class="orbit-slide">
-                <img src="http://placehold.it/2000x750&text=3rd" />
-            </li>
-            <li class="orbit-slide">
-                <img src="http://placehold.it/2000x750&text=4th" />
-            </li>
-        </ul>
-    </div>
-
-    <div class="row column text-center">
-        <h2>Our Newest Products</h2>
-        <hr />
-    </div>
-
-    <div class="row small-up-2 large-up-4">
-        <div class="column">
-            <img class="thumbnail" src="http://placehold.it/300x400" />
-            <h5>Nulla At Nulla Justo, Eget</h5>
-            <p>$400</p>
-            <a class="button expanded" href="view.aspx">Buy</a>
-        </div>
-        <div class="column">
-            <img class="thumbnail" src="http://placehold.it/300x400" />
-            <h5>Nulla At Nulla Justo, Eget</h5>
-            <p>$400</p>
-            <a class="button expanded" href="view.aspx">Buy</a>
-        </div>
-        <div class="column">
-            <img class="thumbnail" src="http://placehold.it/300x400" />
-            <h5>Nulla At Nulla Justo, Eget</h5>
-            <p>$400</p>
-            <a class="button expanded" href="view.aspx">Buy</a>
-        </div>
-        <div class="column">
-            <img class="thumbnail" src="http://placehold.it/300x400" />
-            <h5>Nulla At Nulla Justo, Eget</h5>
-            <p>$400</p>
-            <a class="button expanded" href="view.aspx">Buy</a>
+    <div class="row column">
+        <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit="" data-use-m-u-i="false">
+            <ul class="orbit-container">
+                <button class="orbit-previous" aria-label="previous" onclick="return false;"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
+                <button class="orbit-next" aria-label="next" onclick="return false;"><span class="show-for-sr">Next Slide</span>&#9654;</button>
+                <li class="orbit-slide is-active">
+                    <img src="http://placehold.it/2000x500&text=Product Offer One" />
+                </li>
+                <li class="orbit-slide">
+                    <img src="http://placehold.it/2000x500&text=Product Offer Two" />
+                </li>
+                <li class="orbit-slide">
+                    <img src="http://placehold.it/2000x500&text=Product Offer Three" />
+                </li>
+                <li class="orbit-slide">
+                    <img src="http://placehold.it/2000x500&text=Product Offer Four" />
+                </li>
+            </ul>
         </div>
     </div>
+    
+    <js:BannerTop runat="server" ID="BannerTop" />
+    
+    <js:NewProducts runat="server" id="NewProducts" />
     <hr />
 
     <div class="row column">

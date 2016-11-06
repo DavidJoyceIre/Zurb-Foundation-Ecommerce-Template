@@ -22,6 +22,13 @@
     padding: 4rem;
 }
 
+    .footer .footer-title {
+        color: #fff;
+        font-size: 0.875rem;
+        border-bottom: 3px solid white;
+        text-transform: uppercase;
+    }
+
     .footer a {
         color: #fff;
     }
@@ -78,24 +85,31 @@
         margin: 0 0 1rem 0;
     }
 
-    .footer .footer-links a {
-        list-style: none;
-        font-weight: normal;
-        color: #fff;
-        padding: 3rem 0 2rem;
-        margin: 0;
-        font-size: 0.875rem;
+    .footer .footer-links {
+        list-style-type: none;
     }
 
-        .footer .footer-links a::after {
-            content: "|";
-            padding: 0 0.2rem 0 0.4rem;
+        .footer .footer-links li, .footer .footer-links a {
+            color: #fff;
+            font-size: 0.875rem;
         }
 
-        .footer .footer-links a:last-child::after {
-            content: "";
-            padding: 0 0.4rem 0 0.8rem;
+        .footer .footer-links a {
+            list-style: none;
+            font-weight: normal;
+            padding: 3rem 0 2rem;
+            margin: 0;
         }
+
+            .footer .footer-links a::after {
+                content: "|";
+                padding: 0 0.2rem 0 0.4rem;
+            }
+
+            .footer .footer-links a:last-child::after {
+                content: "";
+                padding: 0 0.4rem 0 0.8rem;
+            }
 
 .logo {
     color: #fff;
@@ -150,3 +164,143 @@
         vertical-align: middle;
         padding: .25em .45em;
     }
+
+.bannertop {
+    margin-bottom: 1.2rem;
+}
+
+.box {
+    border-radius: 3px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    padding: 10px 25px;
+    display: flex;
+    margin-top: 60px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+
+.box-icon {
+    background-color: #292c2f;
+    display: table;
+    height: 100px;
+    margin: 0 auto;
+    width: 100px;
+    margin-top: -10px;
+    margin-left: -25px;
+    font-size: 3rem;
+}
+
+    .box-icon span {
+        color: #fff;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+
+.info {
+    padding-left: 5px;
+    overflow: hidden;
+}
+
+    .info h4 {
+        font-size: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-bottom: 0px;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .info p {
+        color: #717171;
+        font-size: 14px;
+    }
+
+.product-review {
+    display: table;
+}
+
+.event-date {
+    width: 10rem;
+    margin: 0 auto 1rem;
+    display: table-cell;
+    padding-right: 1rem;
+}
+
+    .event-date .event-month, .event-date .event-year {
+        margin: 0;
+        background: #eee;
+        padding: 0.5rem 2rem;
+        text-align: center;
+    }
+
+    .event-date .event-day {
+        margin: 0;
+        border: 1px solid #eee;
+        padding: 0 2rem;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+.header {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+    .header img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+.header-search {
+    padding-top: 1.3rem;
+}
+
+    .header-search [type="text"] {
+        height: 2.65rem;
+    }
+
+    .header-search .search-button {
+        background: none;
+        color: #292c2f;
+        font-size: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        margin-left: 5px;
+        border-bottom: 5px solid #292c2f;
+    }
+
+.shopping_cart {
+    text-align: right;
+    padding-top: 1.3rem;
+}
+
+    .shopping_cart a {
+        padding-right: 20px;
+        padding-bottom: 10px;
+        border-bottom: 5px solid rgb(58, 219, 118);
+        font-size: 20px;
+        color: #292c2f;
+    }
+
+    .shopping_cart .button {
+        width: auto;
+        border: none !important;
+    }
+
+.header-logo {
+    padding-top: 1.3rem;
+}
+
+.section-header {
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #292c2f;
+    font-size: 2.5rem;
+    line-height: 1.4;
+	font-style: normal;
+    color: #292c2f;
+}
+

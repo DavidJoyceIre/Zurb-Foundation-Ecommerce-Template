@@ -20,15 +20,15 @@
             </h6>
             <hr />
             <div class="inline-list connect">
-                <a href="#"><span class="fi-social-facebook"></span></a>
-                <a href="#"><span class="fi-social-twitter"></span></a>
-                <a href="#"><span class="fi-social-linkedin"></span></a>
-                <a href="#"><span class="fi-social-github"></span></a>
-                <a href="#"><span class="fi-social-google-plus"></span></a>
-                <a href="#"><span class="fi-social-instagram"></span></a>
-                <a href="#"><span class="fi-social-snapchat"></span></a>
-                <a href="#"><span class="fi-social-tumblr"></span></a>
-                <a href="#"><span class="fi-social-dribbble"></span></a>
+                <a href="#"><span class="fa fa-facebook"></span></a>
+                <a href="#"><span class="fa fa-twitter"></span></a>
+                <a href="#"><span class="fa fa-linkedin"></span></a>
+                <a href="#"><span class="fa fa-github"></span></a>
+                <a href="#"><span class="fa fa-google-plus"></span></a>
+                <a href="#"><span class="fa fa-instagram"></span></a>
+                <a href="#"><span class="fa fa-snapchat"></span></a>
+                <a href="#"><span class="fa fa-tumblr"></span></a>
+                <a href="#"><span class="fa fa-dribbble"></span></a>
             </div>
 
             <br />
@@ -55,13 +55,13 @@
             <hr />
             <ul class="otherways">
                 <li>
-                    <p><i class="fi-marker"></i>Galway, Ireland, Europe, World</p>
+                    <p><i class="fa fa-map-marker"></i>Galway, Ireland, Europe, World</p>
                 </li>
                 <li>
-                    <p><i class="fi-telephone"></i><a href="tel:00442221111111">+222 111 1111</a></p>
+                    <p><i class="fa fa-phone"></i><a href="tel:00442221111111">+222 111 1111</a></p>
                 </li>
                 <li>
-                    <p><i class="fi-mail"></i><a href="mailto:sales@yourstore.com">sales@yourstore.com</a></p>
+                    <p><i class="fa fa-envelope"></i><a href="mailto:sales@yourstore.com">sales@yourstore.com</a></p>
                 </li>
             </ul>
         </div>
