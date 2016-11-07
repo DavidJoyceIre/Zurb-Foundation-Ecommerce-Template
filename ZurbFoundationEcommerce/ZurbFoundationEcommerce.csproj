@@ -60,16 +60,20 @@
     <Content Include="CSS\font-awesome\fonts\fontawesome-webfont.svg" />
     <Content Include="CSS\foundation.min.css" />
     <Content Include="default.aspx" />
-    <Content Include="images\favicon.ico" />
     <Content Include="images\logo.png" />
     <Content Include="javascript\foundation.js" />
     <Content Include="javascript\jquery-2.1.4.min.js" />
     <Content Include="Modules\BannerTop.ascx" />
+    <Content Include="Modules\FeaturedProducts.ascx" />
     <Content Include="Modules\Footer.ascx" />
     <Content Include="Modules\Header.ascx" />
+    <Content Include="Modules\HeroSlider.ascx" />
     <Content Include="Modules\NewProducts.ascx" />
+    <Content Include="Modules\ProductCardMini1.ascx" />
+    <Content Include="Modules\ProductCardMini2.ascx" />
     <Content Include="Modules\ProductReview.ascx" />
     <Content Include="Modules\TopMenu.ascx" />
+    <Content Include="Modules\TopProducts.ascx" />
     <Content Include="view.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -102,6 +106,13 @@
     <Compile Include="Modules\BannerTop.ascx.designer.cs">
       <DependentUpon>BannerTop.ascx</DependentUpon>
     </Compile>
+    <Compile Include="Modules\FeaturedProducts.ascx.cs">
+      <DependentUpon>FeaturedProducts.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\FeaturedProducts.ascx.designer.cs">
+      <DependentUpon>FeaturedProducts.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Modules\Footer.ascx.cs">
       <DependentUpon>Footer.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -116,12 +127,33 @@
     <Compile Include="Modules\Header.ascx.designer.cs">
       <DependentUpon>Header.ascx</DependentUpon>
     </Compile>
+    <Compile Include="Modules\HeroSlider.ascx.cs">
+      <DependentUpon>HeroSlider.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\HeroSlider.ascx.designer.cs">
+      <DependentUpon>HeroSlider.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Modules\NewProducts.ascx.cs">
       <DependentUpon>NewProducts.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Modules\NewProducts.ascx.designer.cs">
       <DependentUpon>NewProducts.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ProductCardMini1.ascx.cs">
+      <DependentUpon>ProductCardMini1.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\ProductCardMini1.ascx.designer.cs">
+      <DependentUpon>ProductCardMini1.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ProductCardMini2.ascx.cs">
+      <DependentUpon>ProductCardMini2.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\ProductCardMini2.ascx.designer.cs">
+      <DependentUpon>ProductCardMini2.ascx</DependentUpon>
     </Compile>
     <Compile Include="Modules\ProductReview.ascx.cs">
       <DependentUpon>ProductReview.ascx</DependentUpon>
@@ -136,6 +168,13 @@
     </Compile>
     <Compile Include="Modules\TopMenu.ascx.designer.cs">
       <DependentUpon>TopMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\TopProducts.ascx.cs">
+      <DependentUpon>TopProducts.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\TopProducts.ascx.designer.cs">
+      <DependentUpon>TopProducts.ascx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="view.aspx.cs">

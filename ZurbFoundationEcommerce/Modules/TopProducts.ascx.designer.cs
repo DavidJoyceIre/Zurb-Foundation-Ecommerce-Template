@@ -10,25 +10,7 @@
 namespace ZurbFoundationEcommerce.Modules {
     
     
-    public partial class NewProducts {
-        
-        /// <summary>
-        /// ProductCardMini control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::ZurbFoundationEcommerce.Modules.ProductCardMini ProductCardMini;
-        
-        /// <summary>
-        /// ProductCardMini1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::ZurbFoundationEcommerce.Modules.ProductCardMini ProductCardMini1;
+    public partial class TopProducts {
         
         /// <summary>
         /// ProductCardMini2 control.
@@ -37,7 +19,16 @@ namespace ZurbFoundationEcommerce.Modules {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::ZurbFoundationEcommerce.Modules.ProductCardMini ProductCardMini2;
+        protected global::ZurbFoundationEcommerce.Modules.ProductCardMini2 ProductCardMini2;
+        
+        /// <summary>
+        /// ProductCardMini1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::ZurbFoundationEcommerce.Modules.ProductCardMini2 ProductCardMini1;
         
         /// <summary>
         /// ProductCardMini3 control.
@@ -46,6 +37,33 @@ namespace ZurbFoundationEcommerce.Modules {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::ZurbFoundationEcommerce.Modules.ProductCardMini ProductCardMini3;
+        protected global::ZurbFoundationEcommerce.Modules.ProductCardMini2 ProductCardMini3;
+        
+        /// <summary>
+        /// ProductCardMini4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::ZurbFoundationEcommerce.Modules.ProductCardMini2 ProductCardMini4;
+        
+        /// <summary>
+        /// ProductCardMini5 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::ZurbFoundationEcommerce.Modules.ProductCardMini2 ProductCardMini5;
+        
+        /// <summary>
+        /// ProductCardMini6 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::ZurbFoundationEcommerce.Modules.ProductCardMini2 ProductCardMini6;
     }
 }

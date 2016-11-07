@@ -10,7 +10,7 @@
 namespace ZurbFoundationEcommerce.Modules {
     
     
-    public partial class NewProducts {
+    public partial class FeaturedProducts {
         
         /// <summary>
         /// ProductCardMini control.
@@ -47,5 +47,41 @@ namespace ZurbFoundationEcommerce.Modules {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::ZurbFoundationEcommerce.Modules.ProductCardMini ProductCardMini3;
+        
+        /// <summary>
+        /// ProductCardMini4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::ZurbFoundationEcommerce.Modules.ProductCardMini ProductCardMini4;
+        
+        /// <summary>
+        /// ProductCardMini5 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::ZurbFoundationEcommerce.Modules.ProductCardMini ProductCardMini5;
+        
+        /// <summary>
+        /// ProductCardMini6 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::ZurbFoundationEcommerce.Modules.ProductCardMini ProductCardMini6;
+        
+        /// <summary>
+        /// ProductCardMini7 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::ZurbFoundationEcommerce.Modules.ProductCardMini ProductCardMini7;
     }
 }
