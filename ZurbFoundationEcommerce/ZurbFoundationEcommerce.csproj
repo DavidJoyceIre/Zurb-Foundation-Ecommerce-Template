@@ -64,14 +64,19 @@
     <Content Include="javascript\foundation.js" />
     <Content Include="javascript\jquery-2.1.4.min.js" />
     <Content Include="Modules\BannerTop.ascx" />
+    <Content Include="Modules\Breadcrumbs.ascx" />
+    <Content Include="Modules\BuyNow.ascx" />
     <Content Include="Modules\FeaturedProducts.ascx" />
     <Content Include="Modules\Footer.ascx" />
     <Content Include="Modules\Header.ascx" />
     <Content Include="Modules\HeroSlider.ascx" />
+    <Content Include="Modules\InputQuantity.ascx" />
     <Content Include="Modules\NewProducts.ascx" />
     <Content Include="Modules\ProductCardMini1.ascx" />
     <Content Include="Modules\ProductCardMini2.ascx" />
     <Content Include="Modules\ProductReview.ascx" />
+    <Content Include="Modules\ProductView.ascx" />
+    <Content Include="Modules\SimilarProducts.ascx" />
     <Content Include="Modules\TopMenu.ascx" />
     <Content Include="Modules\TopProducts.ascx" />
     <Content Include="view.aspx" />
@@ -106,6 +111,20 @@
     <Compile Include="Modules\BannerTop.ascx.designer.cs">
       <DependentUpon>BannerTop.ascx</DependentUpon>
     </Compile>
+    <Compile Include="Modules\Breadcrumbs.ascx.cs">
+      <DependentUpon>Breadcrumbs.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\Breadcrumbs.ascx.designer.cs">
+      <DependentUpon>Breadcrumbs.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\BuyNow.ascx.cs">
+      <DependentUpon>BuyNow.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\BuyNow.ascx.designer.cs">
+      <DependentUpon>BuyNow.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Modules\FeaturedProducts.ascx.cs">
       <DependentUpon>FeaturedProducts.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -134,6 +153,13 @@
     <Compile Include="Modules\HeroSlider.ascx.designer.cs">
       <DependentUpon>HeroSlider.ascx</DependentUpon>
     </Compile>
+    <Compile Include="Modules\InputQuantity.ascx.cs">
+      <DependentUpon>InputQuantity.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\InputQuantity.ascx.designer.cs">
+      <DependentUpon>InputQuantity.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Modules\NewProducts.ascx.cs">
       <DependentUpon>NewProducts.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -161,6 +187,20 @@
     </Compile>
     <Compile Include="Modules\ProductReview.ascx.designer.cs">
       <DependentUpon>ProductReview.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ProductView.ascx.cs">
+      <DependentUpon>ProductView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\ProductView.ascx.designer.cs">
+      <DependentUpon>ProductView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SimilarProducts.ascx.cs">
+      <DependentUpon>SimilarProducts.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\SimilarProducts.ascx.designer.cs">
+      <DependentUpon>SimilarProducts.ascx</DependentUpon>
     </Compile>
     <Compile Include="Modules\TopMenu.ascx.cs">
       <DependentUpon>TopMenu.ascx</DependentUpon>

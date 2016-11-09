@@ -7,27 +7,18 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ZurbFoundationEcommerce {
+namespace ZurbFoundationEcommerce.Modules {
     
     
-    public partial class view {
+    public partial class BuyNow {
         
         /// <summary>
-        /// Breadcrumbs control.
+        /// InputQuantity control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::ZurbFoundationEcommerce.Modules.breadcrumbs Breadcrumbs;
-        
-        /// <summary>
-        /// ProductView control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::ZurbFoundationEcommerce.Modules.ProductView ProductView;
+        protected global::ZurbFoundationEcommerce.Modules.InputQuantity InputQuantity;
     }
 }

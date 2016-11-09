@@ -6,9 +6,9 @@
             <p class="about subheader">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dictum porttitor lacus.</p>
             <div class="inline-list social">
                 <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="https://twitter.com/davejoyceIE"><i class="fa fa-twitter"></i></a>
                 <a href="#"><i class="fa fa-linkedin"></i></a>
-                <a href="#"><i class="fa fa-github"></i></a>
+                <a href="https://github.com/DavidJoyceIre"><i class="fa fa-github"></i></a>
                 <a href="#"><i class="fa fa-google-plus"></i></a>
                 <a href="#"><i class="fa fa-instagram"></i></a>
             </div>

@@ -39,6 +39,7 @@
 
     <script src="javascript/jquery-2.1.4.min.js"></script>
     <script src="javascript/foundation.js"></script>
+    <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57c0b4c984f468a2"></script> 
     <script>
         $(document).foundation();
     </script>

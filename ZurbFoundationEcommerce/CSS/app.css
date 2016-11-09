@@ -353,6 +353,96 @@
         box-shadow: none;
     }
 
+.breadcrumb {
+    display: inline-block;
+    overflow: hidden;
+}
+
+    .breadcrumb a {
+        text-decoration: none;
+        outline: none;
+        display: block;
+        float: left;
+        font-size: 12px;
+        line-height: 36px;
+        color: white;
+        padding: 0 30px 0 30px;
+        background: #666;
+        background: linear-gradient(#666, #333);
+        position: relative;
+    }
+
+        .breadcrumb a:first-child {
+            padding-left: 30px;
+        }
+
+        .breadcrumb a:last-child {
+            padding-right: 20px;
+        }
+
+        .breadcrumb a.active, .breadcrumb a:hover {
+            background: #333;
+            background: linear-gradient(#333, #000);
+        }
+
+            .breadcrumb a.active:after, .breadcrumb a:hover:after {
+                background: #333;
+                background: linear-gradient(135deg, #333, #000);
+            }
+
+        .breadcrumb a:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: -18px; /*half of square's length*/
+            width: 36px;
+            height: 36px;
+            transform: scale(0.707) rotate(45deg);
+            z-index: 1;
+            background: #666;
+            background: linear-gradient(135deg, #666, #333);
+            box-shadow: 2px -2px 0 2px rgba(0, 0, 0, 0.4), 3px -3px 0 2px rgba(255, 255, 255, 0.1);
+        }
+
+        .breadcrumb a:last-child {
+            background: none;
+            color: #292c2f;
+            font-size: 20px;
+        }
+
+            .breadcrumb a:last-child:after {
+                content: none;
+            }
+
+.product-view {
+    padding-bottom: 1rem;
+}
+
+    .product-view .section-header {
+        padding-top: 2px;
+        text-transform: uppercase;
+    }
+
+    .product-view .tabs-title > a {
+        font-size: 25px;
+    }
+
+        .product-view .tabs-title > a[aria-selected="true"] {
+            border: none;
+            border-bottom: 2px solid #292c2f;
+            background-color: transparent;
+        }
+
+    .product-view .tabs-content {
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid rgb(230, 230, 230);
+        border-image: none;
+    }
+
+tbody tr:nth-child(2n) {
+    background-color: transparent;
+}
 
 /* Small only */
 @media screen and (max-width: 39.9375em) {

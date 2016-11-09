@@ -21,9 +21,9 @@
             <hr />
             <div class="inline-list connect">
                 <a href="#"><span class="fa fa-facebook"></span></a>
-                <a href="#"><span class="fa fa-twitter"></span></a>
+                <a href="https://twitter.com/davejoyceIE"><span class="fa fa-twitter"></span></a>
                 <a href="#"><span class="fa fa-linkedin"></span></a>
-                <a href="#"><span class="fa fa-github"></span></a>
+                <a href="https://github.com/DavidJoyceIre"><span class="fa fa-github"></span></a>
                 <a href="#"><span class="fa fa-google-plus"></span></a>
                 <a href="#"><span class="fa fa-instagram"></span></a>
                 <a href="#"><span class="fa fa-snapchat"></span></a>
