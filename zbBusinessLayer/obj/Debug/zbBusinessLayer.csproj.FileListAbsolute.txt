@@ -1,0 +1,5 @@
+C:\Software Development\My Projects\Zurb Foundation\Template Code\ZurbFoundationEcommerce\zbBusinessLayer\bin\Debug\zbBusinessLayer.dll
+C:\Software Development\My Projects\Zurb Foundation\Template Code\ZurbFoundationEcommerce\zbBusinessLayer\bin\Debug\zbBusinessLayer.pdb
+C:\Software Development\My Projects\Zurb Foundation\Template Code\ZurbFoundationEcommerce\zbBusinessLayer\obj\Debug\zbBusinessLayer.dll
+C:\Software Development\My Projects\Zurb Foundation\Template Code\ZurbFoundationEcommerce\zbBusinessLayer\obj\Debug\zbBusinessLayer.pdb
+C:\Software Development\My Projects\Zurb Foundation\Template Code\ZurbFoundationEcommerce\zbBusinessLayer\obj\Debug\zbBusinessLayer.csprojResolveAssemblyReference.cache

@@ -10,7 +10,7 @@ Contents of this work was inspired by the official Zurb templates found [here](h
 - [x] Main Page
 - [x] Product View
 - [x] Contact US
-- [ ] Login Page
+- [x] Login Page
 - [ ] Account Details
 - [ ] Shopping Cart
 - [ ] Check Out Process

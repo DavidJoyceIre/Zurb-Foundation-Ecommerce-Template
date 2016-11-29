@@ -13,57 +13,12 @@ namespace ZurbFoundationEcommerce.Modules {
     public partial class SimilarProducts {
         
         /// <summary>
-        /// ProductCardMini2 control.
+        /// dlCatalog control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::ZurbFoundationEcommerce.Modules.ProductCardMini2 ProductCardMini2;
-        
-        /// <summary>
-        /// ProductCardMini1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::ZurbFoundationEcommerce.Modules.ProductCardMini2 ProductCardMini1;
-        
-        /// <summary>
-        /// ProductCardMini3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::ZurbFoundationEcommerce.Modules.ProductCardMini2 ProductCardMini3;
-        
-        /// <summary>
-        /// ProductCardMini4 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::ZurbFoundationEcommerce.Modules.ProductCardMini2 ProductCardMini4;
-        
-        /// <summary>
-        /// ProductCardMini5 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::ZurbFoundationEcommerce.Modules.ProductCardMini2 ProductCardMini5;
-        
-        /// <summary>
-        /// ProductCardMini6 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::ZurbFoundationEcommerce.Modules.ProductCardMini2 ProductCardMini6;
+        protected global::System.Web.UI.WebControls.DataList dlCatalog;
     }
 }

@@ -63,9 +63,12 @@
     <Content Include="images\logo.png" />
     <Content Include="javascript\foundation.js" />
     <Content Include="javascript\jquery-2.1.4.min.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="Modules\AllProducts.ascx" />
     <Content Include="Modules\BannerTop.ascx" />
     <Content Include="Modules\Breadcrumbs.ascx" />
     <Content Include="Modules\BuyNow.ascx" />
+    <Content Include="Modules\CustomerLogin.ascx" />
     <Content Include="Modules\FeaturedProducts.ascx" />
     <Content Include="Modules\Footer.ascx" />
     <Content Include="Modules\Header.ascx" />
@@ -79,6 +82,7 @@
     <Content Include="Modules\SimilarProducts.ascx" />
     <Content Include="Modules\TopMenu.ascx" />
     <Content Include="Modules\TopProducts.ascx" />
+    <Content Include="products.aspx" />
     <Content Include="view.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -104,6 +108,20 @@
     <Compile Include="Layout.Master.designer.cs">
       <DependentUpon>Layout.Master</DependentUpon>
     </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\AllProducts.ascx.cs">
+      <DependentUpon>AllProducts.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\AllProducts.ascx.designer.cs">
+      <DependentUpon>AllProducts.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Modules\BannerTop.ascx.cs">
       <DependentUpon>BannerTop.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -124,6 +142,13 @@
     </Compile>
     <Compile Include="Modules\BuyNow.ascx.designer.cs">
       <DependentUpon>BuyNow.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\CustomerLogin.ascx.cs">
+      <DependentUpon>CustomerLogin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\CustomerLogin.ascx.designer.cs">
+      <DependentUpon>CustomerLogin.ascx</DependentUpon>
     </Compile>
     <Compile Include="Modules\FeaturedProducts.ascx.cs">
       <DependentUpon>FeaturedProducts.ascx</DependentUpon>
@@ -216,6 +241,13 @@
     <Compile Include="Modules\TopProducts.ascx.designer.cs">
       <DependentUpon>TopProducts.ascx</DependentUpon>
     </Compile>
+    <Compile Include="products.aspx.cs">
+      <DependentUpon>products.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products.aspx.designer.cs">
+      <DependentUpon>products.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="view.aspx.cs">
       <DependentUpon>view.aspx</DependentUpon>
@@ -239,7 +271,12 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\zbBusinessLayer\zbBusinessLayer.csproj">
+      <Project>{2c87359a-6937-4c8c-bd3c-fa8c4d479088}</Project>
+      <Name>zbBusinessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -2,14 +2,18 @@
 <div class="media-object product-card-mini-2">
     <div class="media-object-section">
         <a href="../view.aspx">
-            <img class="thumbnail" src="http://placehold.it/150x150" />
+            <asp:Image ID="imgProduct" runat="server" CssClass="thumbnail" />
         </a>
     </div>
     <div class="media-object-section details">
         <a href="../view.aspx">
             <div class="row">
-                <h5>Nulla At Nulla Justo</h5>
-                <p class="stat float-right">€999.99</p>
+                <h5>
+                    <asp:Label ID="lblName" runat="server" />
+                </h5>
+                <p class="stat float-right">
+                    <asp:Label ID="lblPrice" runat="server" />
+                </p>
             </div>
         </a>
         <div class="row">

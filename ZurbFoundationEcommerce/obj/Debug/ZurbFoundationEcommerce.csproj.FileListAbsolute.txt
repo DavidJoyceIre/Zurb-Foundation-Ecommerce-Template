@@ -10,3 +10,5 @@ C:\Software Development\My Projects\Zurb Foundation\Template Code\ZurbFoundation
 C:\Software Development\My Projects\Zurb Foundation\Template Code\ZurbFoundationEcommerce\ZurbFoundationEcommerce\obj\Debug\ZurbFoundationEcommerce.csprojResolveAssemblyReference.cache
 C:\Software Development\My Projects\Zurb Foundation\Template Code\ZurbFoundationEcommerce\ZurbFoundationEcommerce\obj\Debug\ZurbFoundationEcommerce.dll
 C:\Software Development\My Projects\Zurb Foundation\Template Code\ZurbFoundationEcommerce\ZurbFoundationEcommerce\obj\Debug\ZurbFoundationEcommerce.pdb
+C:\Software Development\My Projects\Zurb Foundation\Template Code\ZurbFoundationEcommerce\ZurbFoundationEcommerce\bin\zbBusinessLayer.dll
+C:\Software Development\My Projects\Zurb Foundation\Template Code\ZurbFoundationEcommerce\ZurbFoundationEcommerce\bin\zbBusinessLayer.pdb

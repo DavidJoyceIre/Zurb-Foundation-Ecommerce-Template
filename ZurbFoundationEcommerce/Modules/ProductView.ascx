@@ -8,8 +8,8 @@
     <div class="row ">
         <div class="small-12 columns">
             <h3 class="section-header">
-                My Awesome Product
-            </h3>            
+                <%= Product.Name %>
+            </h3>
         </div>
         <div class="medium-6 columns">
             <img class="thumbnail" src="http://placehold.it/650x350" />
@@ -33,21 +33,21 @@
                 <tbody>
                     <tr>
                         <td>Brand</td>
-                        <td>Awesome Brand</td>
+                        <td><%= Product.Brand %></td>
                     </tr>
                     <tr>
                         <td>Product Code</td>
-                        <td>1234</td>
+                        <td><%= Product.ProductCode %></td>
                     </tr>
                     <tr>
                         <td>Availability</td>
-                        <td>3</td>
+                        <td><%= Product.StockQuantity %></td>
                     </tr>
                 </tbody>
             </table>
             <label>
                 Price
-                <p class="stat float-right">€999.99</p>
+                <p class="stat float-right">€<%= string.Format("{0:0.00}", Product.Price) %></p>
             </label>
             <div class="clearfix"></div>
             <label>
@@ -56,7 +56,6 @@
                     <option value="husker">Small</option>
                     <option value="starbuck">Medium</option>
                     <option value="hotdog">Large</option>
-                    <option value="apollo">Yeti</option>
                 </select>
             </label>
             <label>
@@ -66,14 +65,6 @@
             <js:BuyNow runat="server" ID="BuyNow" />
 
 
-            <%--<div class="small secondary expanded button-group">
-            <a class="button">Facebook</a>
-            <a class="button">Twitter</a>
-            <a class="button">Yo</a>
-        </div>--%>
-            <!-- Go to www.addthis.com/dashboard to customize your tools -->
-
-            <!-- Go to www.addthis.com/dashboard to customize your tools -->
             <div class="addthis_inline_share_toolbox"></div>
         </div>
     </div>
@@ -87,12 +78,16 @@
         </ul>
         <div class="tabs-content" data-tabs-content="example-tabs">
             <div class="tabs-panel is-active" id="pnlDescription">
-                <p>Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in.</p>
+                <p><%= Product.Description %></p>
             </div>
             <div class="tabs-panel" id="panel1">
-                <js:ProductReview runat="server" ID="ProductReview" />
-                <js:ProductReview runat="server" ID="ProductReview1" />
-                <js:ProductReview runat="server" ID="ProductReview2" />
+                <asp:DataList ID="dlReview" runat="server" RepeatColumns="6" RepeatDirection="Horizontal"
+                    RepeatLayout="Flow" ItemStyle-CssClass="large-12 columns" EnableViewState="false" 
+                    Style="display: inline-block; width: 100%">
+                    <ItemTemplate>
+                        <js:ProductReview runat="server" ID="ProductReview2" Review='<%# Container.DataItem %>' />
+                    </ItemTemplate>
+                </asp:DataList>
                 <hr />
                 <label>
                     Email
@@ -105,7 +100,7 @@
                 <button class="button hollow">Submit Review</button>
             </div>
             <div class="tabs-panel" id="panel2">
-                <js:SimilarProducts runat="server" id="SimilarProducts" />
+                <js:SimilarProducts runat="server" ID="SimilarProducts" />
             </div>
         </div>
     </div>

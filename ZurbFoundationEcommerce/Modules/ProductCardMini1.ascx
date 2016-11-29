@@ -1,9 +1,13 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ProductCardMini1.ascx.cs" Inherits="ZurbFoundationEcommerce.Modules.ProductCardMini" %>
 <div class="product-card-mini column">
     <a href="../view.aspx">
-        <img class="thumbnail" src="http://placehold.it/300x300" alt="Nulla At Nulla Justo" />
-        <h5>Nulla At Nulla Justo</h5>
-        <p class="stat float-right">€999.99</p>
+        <asp:Image ID="imgProduct" runat="server" CssClass="thumbnail" />
+        <h5>
+            <asp:Label ID="lblName" runat="server" />
+        </h5>
+        <p class="stat float-right">
+            <asp:Label ID="lblPrice" runat="server" />
+        </p>
     </a>
     <div class="expanded button-group">
         <a class="button secondary hollow" href="../view.aspx">More</a>

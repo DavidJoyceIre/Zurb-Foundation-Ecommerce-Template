@@ -22,31 +22,13 @@ namespace ZurbFoundationEcommerce.Modules {
         protected global::ZurbFoundationEcommerce.Modules.BuyNow BuyNow;
         
         /// <summary>
-        /// ProductReview control.
+        /// dlReview control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::ZurbFoundationEcommerce.Modules.ProductReview ProductReview;
-        
-        /// <summary>
-        /// ProductReview1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::ZurbFoundationEcommerce.Modules.ProductReview ProductReview1;
-        
-        /// <summary>
-        /// ProductReview2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::ZurbFoundationEcommerce.Modules.ProductReview ProductReview2;
+        protected global::System.Web.UI.WebControls.DataList dlReview;
         
         /// <summary>
         /// SimilarProducts control.

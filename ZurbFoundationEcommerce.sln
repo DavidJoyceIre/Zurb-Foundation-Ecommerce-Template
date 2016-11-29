@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZurbFoundationEcommerce", "ZurbFoundationEcommerce\ZurbFoundationEcommerce.csproj", "{8BAD50B7-2737-448F-8FC2-9FCB37E2715D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zbBusinessLayer", "zbBusinessLayer\zbBusinessLayer.csproj", "{2C87359A-6937-4C8C-BD3C-FA8C4D479088}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8BAD50B7-2737-448F-8FC2-9FCB37E2715D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BAD50B7-2737-448F-8FC2-9FCB37E2715D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BAD50B7-2737-448F-8FC2-9FCB37E2715D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C87359A-6937-4C8C-BD3C-FA8C4D479088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C87359A-6937-4C8C-BD3C-FA8C4D479088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C87359A-6937-4C8C-BD3C-FA8C4D479088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C87359A-6937-4C8C-BD3C-FA8C4D479088}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -13,39 +13,12 @@ namespace ZurbFoundationEcommerce.Modules {
     public partial class NewProducts {
         
         /// <summary>
-        /// ProductCardMini control.
+        /// dlCatalog control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::ZurbFoundationEcommerce.Modules.ProductCardMini ProductCardMini;
-        
-        /// <summary>
-        /// ProductCardMini1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::ZurbFoundationEcommerce.Modules.ProductCardMini ProductCardMini1;
-        
-        /// <summary>
-        /// ProductCardMini2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::ZurbFoundationEcommerce.Modules.ProductCardMini ProductCardMini2;
-        
-        /// <summary>
-        /// ProductCardMini3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::ZurbFoundationEcommerce.Modules.ProductCardMini ProductCardMini3;
+        protected global::System.Web.UI.WebControls.DataList dlCatalog;
     }
 }

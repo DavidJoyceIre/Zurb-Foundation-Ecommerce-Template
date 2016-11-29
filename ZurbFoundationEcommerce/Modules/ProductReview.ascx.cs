@@ -9,9 +9,34 @@ namespace ZurbFoundationEcommerce.Modules
 {
     public partial class ProductReview : System.Web.UI.UserControl
     {
-        protected void Page_Load(object sender, EventArgs e)
-        {
+        zbBusinessLayer.ProductReview _review = null;
 
+        public zbBusinessLayer.ProductReview Review
+        {
+            get
+            {
+                return _review;
+            }
+            set
+            {
+                _review = value;
+            }
+        }
+
+        public override void DataBind()
+        {
+            base.DataBind();
+            this.BindData();
+        }
+
+        private void BindData()
+        {
+            if (null != _review)
+            {
+                //imgProduct.ImageUrl = _review.ImagePath;
+                //lblPrice.Text = "€" + _review.Price.ToString("N2");
+                //lblName.Text = _review.Name;
+            }
         }
     }
 }

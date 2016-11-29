@@ -2,14 +2,10 @@
 <%@ Register Src="~/Modules/ProductCardMini2.ascx" TagPrefix="js" TagName="ProductCardMini2" %>
 
 <div class="row">
-    <div class="large-6 columns">
-        <js:ProductCardMini2 runat="server" id="ProductCardMini2" />
-        <js:ProductCardMini2 runat="server" id="ProductCardMini1" />
-        <js:ProductCardMini2 runat="server" id="ProductCardMini3" />
-    </div>
-    <div class="large-6 columns">
-        <js:ProductCardMini2 runat="server" id="ProductCardMini4" />
-        <js:ProductCardMini2 runat="server" id="ProductCardMini5" />
-        <js:ProductCardMini2 runat="server" id="ProductCardMini6" />
-    </div>
+    <asp:DataList ID="dlCatalog" runat="server" RepeatColumns="6" RepeatDirection="Horizontal"
+        RepeatLayout="Flow" ItemStyle-CssClass="large-6 columns" EnableViewState="false" style="display: inline-block; width: 100%">
+        <ItemTemplate>
+            <js:ProductCardMini2 runat="server" id="ProductCardMini2" Product='<%# Container.DataItem %>' />
+        </ItemTemplate>
+    </asp:DataList>
 </div>

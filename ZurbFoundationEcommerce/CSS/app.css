@@ -444,6 +444,31 @@ tbody tr:nth-child(2n) {
     background-color: transparent;
 }
 
+.new-user-box {
+    /*border: 1px solid #e8e8e8;*/
+}
+.new-user-inner {
+    /*border: 1px solid #c1bdbd;*/
+    border: 1px solid rgb(202, 202, 202);
+    min-height: 350px;
+}
+.new-user-content {
+	padding: 30px 70px 30px 30px;
+}
+.new-user-box .button-set {
+	border-bottom: 1px solid rgb(202, 202, 202);
+	border-left: 1px solid rgb(202, 202, 202);
+	border-right: 1px solid rgb(202, 202, 202);
+	margin-top: 0;
+	padding: 6px 26px 6px 6px;
+	overflow: hidden;
+}
+.new-user-box .button-set .button {
+	margin: 0;
+}
+.gap-spacing {
+    padding: 10px;
+}
 /* Small only */
 @media screen and (max-width: 39.9375em) {
     .small-up-2 .product-card-mini {
