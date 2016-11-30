@@ -14,8 +14,7 @@
             </div>
             <div class="button-set">
                 <div class="pull-right">
-                    <a href="#" class="button secondary  hollow">Continue</a>
-
+                    <a href="../register.aspx" class="button secondary  hollow">Continue</a>
                 </div>
             </div>
         </div>
@@ -39,8 +38,8 @@
             </div>
             <div class="button-set">
                 <div class="pull-right">
-                    <a href="#" class="button secondary hollow">Forgotten Password</a>
-                    <button class="button success">Login</button>
+                    <a href="../default.aspx" class="button secondary hollow">Forgotten Password</a>
+                    <a href="../default.aspx" class="button success">Login</a>
                 </div>
             </div>
         </div>

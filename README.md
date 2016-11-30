@@ -11,6 +11,7 @@ Contents of this work was inspired by the official Zurb templates found [here](h
 - [x] Product View
 - [x] Contact US
 - [x] Login Page
+- [x] Register Page
 - [ ] Account Details
 - [ ] Shopping Cart
 - [ ] Check Out Process

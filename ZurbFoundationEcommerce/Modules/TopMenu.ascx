@@ -12,7 +12,7 @@
     <div class="top-bar-right">
         <ul class="menu">
             <li><a href="../Login.aspx"><i class="fa fa-lock"></i>Login</a></li>
-            <li><a href="#"><i class="fa fa-user-circle-o"></i>Register</a></li>
+            <li><a href="../register.aspx"><i class="fa fa-user-circle-o"></i>Register</a></li>
         </ul>
     </div>
 </div>
