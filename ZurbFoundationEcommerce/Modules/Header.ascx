@@ -19,7 +19,7 @@
     </div>
     <div class="large-3 column">
         <div class="shopping_cart">
-            <a href="#">
+            <a href="shoppingcart.aspx">
                 Shopping Cart&nbsp;<span class="label success">1</span>
             </a>
         </div>

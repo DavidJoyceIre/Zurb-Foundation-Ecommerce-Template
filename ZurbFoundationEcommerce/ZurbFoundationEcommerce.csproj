@@ -53,6 +53,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="checkout.aspx" />
     <Content Include="contactus.aspx" />
     <Content Include="CSS\app.css" />
     <Content Include="CSS\font-awesome\css\font-awesome.css" />
@@ -68,6 +69,8 @@
     <Content Include="Modules\BannerTop.ascx" />
     <Content Include="Modules\Breadcrumbs.ascx" />
     <Content Include="Modules\BuyNow.ascx" />
+    <Content Include="Modules\Cards.ascx" />
+    <Content Include="Modules\Checkout.ascx" />
     <Content Include="Modules\CustomerLogin.ascx" />
     <Content Include="Modules\CustomerRegister.ascx" />
     <Content Include="Modules\FeaturedProducts.ascx" />
@@ -83,12 +86,21 @@
     <Content Include="Modules\SimilarProducts.ascx" />
     <Content Include="Modules\TopMenu.ascx" />
     <Content Include="Modules\TopProducts.ascx" />
+    <Content Include="Modules\YourBasket.ascx" />
     <Content Include="products.aspx" />
     <Content Include="register.aspx" />
+    <Content Include="shoppingcart.aspx" />
     <Content Include="view.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="checkout.aspx.cs">
+      <DependentUpon>checkout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="checkout.aspx.designer.cs">
+      <DependentUpon>checkout.aspx</DependentUpon>
+    </Compile>
     <Compile Include="contactus.aspx.cs">
       <DependentUpon>contactus.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -144,6 +156,20 @@
     </Compile>
     <Compile Include="Modules\BuyNow.ascx.designer.cs">
       <DependentUpon>BuyNow.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Cards.ascx.cs">
+      <DependentUpon>Cards.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\Cards.ascx.designer.cs">
+      <DependentUpon>Cards.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Checkout.ascx.cs">
+      <DependentUpon>Checkout.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\Checkout.ascx.designer.cs">
+      <DependentUpon>Checkout.ascx</DependentUpon>
     </Compile>
     <Compile Include="Modules\CustomerLogin.ascx.cs">
       <DependentUpon>CustomerLogin.ascx</DependentUpon>
@@ -250,6 +276,13 @@
     <Compile Include="Modules\TopProducts.ascx.designer.cs">
       <DependentUpon>TopProducts.ascx</DependentUpon>
     </Compile>
+    <Compile Include="Modules\YourBasket.ascx.cs">
+      <DependentUpon>YourBasket.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\YourBasket.ascx.designer.cs">
+      <DependentUpon>YourBasket.ascx</DependentUpon>
+    </Compile>
     <Compile Include="products.aspx.cs">
       <DependentUpon>products.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -264,6 +297,13 @@
     </Compile>
     <Compile Include="register.aspx.designer.cs">
       <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="shoppingcart.aspx.cs">
+      <DependentUpon>shoppingcart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="shoppingcart.aspx.designer.cs">
+      <DependentUpon>shoppingcart.aspx</DependentUpon>
     </Compile>
     <Compile Include="view.aspx.cs">
       <DependentUpon>view.aspx</DependentUpon>

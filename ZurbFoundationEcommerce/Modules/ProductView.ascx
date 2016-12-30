@@ -60,7 +60,7 @@
             </label>
             <label>
                 Custom Text
-                <input type="text" />
+                <input type="number" />
             </label>
             <js:BuyNow runat="server" ID="BuyNow" />
 

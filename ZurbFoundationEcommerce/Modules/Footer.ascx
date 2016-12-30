@@ -31,7 +31,7 @@
                 <li><a href="#">Customer Info</a></li>
                 <li><a href="#">Addresses</a></li>
                 <li><a href="#">Orders</a></li>
-                <li><a href="#">Shopping Cart</a></li>
+                <li><a href="../shoppingcart.aspx">Shopping Cart</a></li>
                 <li><a href="#">Wishlist</a></li>
                 <li><a href="#">Compare product list</a></li>
             </ul>
