@@ -12,8 +12,9 @@ Contents of this work was inspired by the official Zurb templates found [here](h
 - [x] Contact US
 - [x] Login Page
 - [x] Register Page
-- [ ] Account Details
-- [ ] Shopping Cart
-- [ ] Check Out Process
+- [x] Account Details
+- [x] Shopping Cart
+- [x] Check Out Process
+- [ ] Administration Dashboard
 
 More to come soon...
