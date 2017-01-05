@@ -37,7 +37,7 @@
         <js:Footer runat="server" id="Footer" />
     </form>
 
-    <script src="javascript/vendor/jquery.js"></script>
+    <script src="javascript/jquery.js"></script>
     <script src="javascript/foundation.js"></script>
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-582634634337a811"></script>
     
