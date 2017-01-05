@@ -1,5 +1,7 @@
 # Zurb-Foundation-Ecommerce-Template
-Zurb Foundation Visual Studio Project Template
+HTML Ecommerce Template
+
+This modern template (built using Zurb Foundation) is ideal for Ecommerce, this ASP.NET template is great for online business applications in fashion, furniture, technology accessories, and other industries. It has large Hero Images and generous sized Product Cards
 
 Visual Studio Project Template to allow you to quickly create an Ecommerce site using [Zurb Foundation](http://foundation.zurb.com/)
 
@@ -15,6 +17,6 @@ Contents of this work was inspired by the official Zurb templates found [here](h
 - [x] Account Details
 - [x] Shopping Cart
 - [x] Check Out Process
-- [ ] Administration Dashboard
+- [x] Administration Dashboard
 
 More to come soon...

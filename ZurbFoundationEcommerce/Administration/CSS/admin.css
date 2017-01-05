@@ -1,0 +1,69 @@
+﻿body {
+    background-color: #F8FAFF;
+    font: normal 14px Arial,Helvetica,sans-serif;
+    color: #090707;
+}
+.off-canvas .title-bar-title {
+	display: inline-block;
+	vertical-align: middle;
+	font-weight: bold;
+	color: white;
+	padding: 1rem 2rem;
+	border-bottom: 1px solid #262626;
+	width: 100%;
+}
+.card, .callout {
+	-webkit-box-shadow: 5px 5px 6px 0px rgba(230,230,230,0.8);
+	-moz-box-shadow: 5px 5px 6px 0px rgba(230,230,230,0.8);
+	box-shadow: 5px 5px 6px 0px rgba(230,230,230,0.8);
+}
+/*table {
+	-webkit-box-shadow: 5px 5px 6px 0px rgba(230,230,230,0.8);
+	-moz-box-shadow: 5px 5px 6px 0px rgba(230,230,230,0.8);
+	box-shadow: 5px 5px 6px 0px rgba(230,230,230,0.8);
+	border: 1px solid #e6e6e6;
+}*/
+.card-divider {
+	padding: 5px;
+	background: #e6e6e6;
+	padding-left: 1rem;
+}
+.card-body {
+	padding: 1rem;
+}
+.card-body .stat {
+	display: block;
+	font-size: 84px;
+	font-weight: 700;
+	line-height: 84px;
+}
+.card-section {
+	padding: 2px;
+	border-top: 1px solid #e6e6e6;
+	padding-left: 1rem;
+}
+.callout {
+	border: none;
+}
+.off-canvas {
+	background: #0a0a0a;
+}
+.off-canvas-submenu-call, .off-canvas-submenu > li > a {
+	border-bottom: 1px solid #262626;
+	color: rgba(255, 255, 255, 0.7);
+	display: block;
+	padding: 0.66667rem;
+	transition: background 300ms ease;
+}
+.off-canvas-submenu-call:hover, .off-canvas-submenu > li > a:hover {
+	color: #1779ba;
+	background: rgba(254, 254, 254, 0.25);
+}
+.more-button {
+	padding-right: 1rem;
+	padding-top: 3px;
+	cursor: pointer;
+}
+.has-tip {
+	border-bottom: none;
+}

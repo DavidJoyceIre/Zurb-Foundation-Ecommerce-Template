@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin.master.cs" Inherits="ZurbFoundationEcommerce.Administration.admin" %>
+
+<%@ Register Src="~/Administration/Modules/OffCanvas.ascx" TagPrefix="js" TagName="OffCanvas" %>
+<%@ Register Src="~/Administration/Modules/TopBar.ascx" TagPrefix="js" TagName="TopBar" %>
+
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta content="IE=11.0000" http-equiv="X-UA-Compatible" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin | YourStore</title>
+
+    <link href="../css/foundation.min.css" rel="stylesheet" />
+    <link href="../css/app.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css">
+    <link href="../images/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="css/admin.css">
+
+    <!-- Google Charts-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">        
+        <div class="off-canvas-wrapper">
+            <js:OffCanvas runat="server" id="OffCanvas" />
+            <div class="off-canvas-content" data-off-canvas-content="">
+                <js:TopBar runat="server" id="TopBar" />
+                <div class="row">
+                    &nbsp;
+                </div>
+                
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+               
+            </div>
+        </div>
+    </form>
+
+    <script src="../javascript/jquery.js"></script>
+    <script src="../javascript/what-input.js"></script>
+    <script src="../javascript/foundation.js"></script>
+    <script src="../javascript/app.js"></script>
+    <script src="javascript/admin.js"></script>
+
+    <script type="text/javascript">
+        $(document).foundation();
+
+        $(".off-canvas-submenu").hide();
+
+        $(".off-canvas-submenu-call").click(function () {
+
+            var icon = $(this).parent().next(".off-canvas-submenu").is(':visible') ? '+' : '-';
+
+            $(this).parent().next(".off-canvas-submenu").slideToggle('fast');
+
+            $(this).find("span").text(icon);
+
+        });
+
+    </script>
+</body>
+</html>

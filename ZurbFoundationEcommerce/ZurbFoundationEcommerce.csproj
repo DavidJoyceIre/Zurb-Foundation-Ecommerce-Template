@@ -53,6 +53,16 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Administration\CSS\admin.css" />
+    <Content Include="Administration\default.aspx" />
+    <Content Include="Administration\Javascript\admin.js" />
+    <Content Include="Administration\Modules\CallOutLargeValue.ascx" />
+    <Content Include="Administration\Modules\CallOutStat.ascx" />
+    <Content Include="Administration\Modules\ChartCard.ascx" />
+    <Content Include="Administration\Modules\OffCanvas.ascx" />
+    <Content Include="Administration\Modules\TablePendingOrders.ascx" />
+    <Content Include="Administration\Modules\TableSalesByProduct.ascx" />
+    <Content Include="Administration\Modules\TopBar.ascx" />
     <Content Include="checkout.aspx" />
     <Content Include="contactus.aspx" />
     <Content Include="CSS\app.css" />
@@ -63,7 +73,9 @@
     <Content Include="default.aspx" />
     <Content Include="images\logo.png" />
     <Content Include="javascript\foundation.js" />
-    <Content Include="javascript\jquery-2.1.4.min.js" />
+    <Content Include="javascript\foundation.min.js" />
+    <Content Include="javascript\jquery.js" />
+    <Content Include="javascript\what-input.js" />
     <Content Include="Login.aspx" />
     <Content Include="Modules\AllProducts.ascx" />
     <Content Include="Modules\BannerTop.ascx" />
@@ -94,6 +106,69 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Administration\admin.Master.cs">
+      <DependentUpon>admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\admin.Master.designer.cs">
+      <DependentUpon>admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Modules\CallOutLargeValue.ascx.cs">
+      <DependentUpon>CallOutLargeValue.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\Modules\CallOutLargeValue.ascx.designer.cs">
+      <DependentUpon>CallOutLargeValue.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Modules\CallOutStat.ascx.cs">
+      <DependentUpon>CallOutStat.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\Modules\CallOutStat.ascx.designer.cs">
+      <DependentUpon>CallOutStat.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Modules\ChartCard.ascx.cs">
+      <DependentUpon>ChartCard.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\Modules\ChartCard.ascx.designer.cs">
+      <DependentUpon>ChartCard.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Modules\OffCanvas.ascx.cs">
+      <DependentUpon>OffCanvas.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\Modules\OffCanvas.ascx.designer.cs">
+      <DependentUpon>OffCanvas.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Modules\TablePendingOrders.ascx.cs">
+      <DependentUpon>TablePendingOrders.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\Modules\TablePendingOrders.ascx.designer.cs">
+      <DependentUpon>TablePendingOrders.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Modules\TableSalesByProduct.ascx.cs">
+      <DependentUpon>TableSalesByProduct.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\Modules\TableSalesByProduct.ascx.designer.cs">
+      <DependentUpon>TableSalesByProduct.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Modules\TopBar.ascx.cs">
+      <DependentUpon>TopBar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\Modules\TopBar.ascx.designer.cs">
+      <DependentUpon>TopBar.ascx</DependentUpon>
+    </Compile>
     <Compile Include="checkout.aspx.cs">
       <DependentUpon>checkout.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -320,6 +395,7 @@
     <Content Include="CSS\font-awesome\fonts\fontawesome-webfont.woff" />
     <Content Include="CSS\font-awesome\fonts\fontawesome-webfont.woff2" />
     <Content Include="CSS\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="Administration\admin.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -333,6 +409,7 @@
       <Name>zbBusinessLayer</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
